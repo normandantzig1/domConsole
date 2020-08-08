@@ -1,4 +1,13 @@
-//CREATE FORM
+/***************************************
+ * 
+ * FORM
+ * 
+ * 
+ */
+
+// Get Current Level
+
+
 function create_form(){
     //Create Form
     let form = document.createElement("form");
@@ -95,9 +104,17 @@ fetch("pass.json")
   level_username = json[current_level]["Username"]}
   )
 
+  //LEVEL TITLE MOVE
+document.getElementById("level_title").innerHTML = `Level ${current_level}`
 
-//INSTRUCTIONS
+/***************************************
+ * 
+ * INSTRUCTIONS
+ * 
+ * 
+ */
 
+// Get Current Level
 //Set Up Level Text
 let instructions1 = `You will bring up your browsers developer tools to access the javascript console.`
 
@@ -150,8 +167,7 @@ function next_level(check_password=creds(user, pass)){
 }
 
 
-//LEVEL TITLE MOVE
-document.getElementById("level_title").innerHTML = `Level ${current_level}`
+
 
 //apply level 
 //function from level_setup.js
