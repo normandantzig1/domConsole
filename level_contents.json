@@ -1,0 +1,20 @@
+[
+{
+"level_text" : "On this level your job is to enter bandit0 in the username and password boxes and press submit"
+},
+{
+    "level_text" : "On this level your job is to enter into the console and set the variable user to bandit1 and pass to boJ9jbbUNNfktd78OOpsqOltutMc3MY1 .  Submit using the function next_level().  FYI you can also unhide the submit button"
+},
+{
+"level_text" : "The password for this level is stored in an element called readme located in the header section of the webpage. Use this password to log into bandit1 using the web form.Whenever you find a password for a level, use the web form to get to log into that level and continue the game."
+},
+{
+"level_text" : "The password is hidden in an element with the id dash. Find it using console. No cheating, you sly dogs."
+},
+{
+"level_text" : "The password is hidden in a set of div elements.  You will combine the fragments. The password will have numbers and letters. Find it using console. No cheating, you sly dogs."
+},
+ {
+    "level_text" : "    The password for this level is koReBOKuIDDepwhWk7jZC0RTdopnAYKh and the user name is Bandit5.  The submit button has been disabled.  Your goal is to recreate the submit button using the console.  Submit the password once you are able.  HINT: 1.) You might look up create submit javascript. 2.) Know how to appendChild.  "  
+ }
+]

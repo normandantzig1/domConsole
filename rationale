@@ -1,0 +1,7 @@
+here is my rationale for using the console.
+
+If you are at work, you probably wont have a programming environment to use or work with but you will have an internet browser which has access to javascript in it.  You can scrape data.  You can perform calculations.  You automate things.  
+
+for (item of listofitems){
+console.log(item.textContent)
+}
